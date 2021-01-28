@@ -1,0 +1,144 @@
+/* Homepage*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightcyan;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+
+a {
+    margin: 0 50px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Sacramento', cursive;
+    color: white;
+    background-color: black
+}
+
+a:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+.button a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.button {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 5rem;
+    font-family: 'Sacramento', cursive;
+    color: black;
+    background-color: rgb(226, 255, 122);
+ 
+    
+}
+
+sub {
+    font-size: 2rem;
+    background-color: rgb(226, 255, 122);
+}
+
+.welcome {
+    margin-top: 150px;
+    height: 150px;
+    width: 100%;
+    
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    width: 80%;
+    margin-top: 15px;
+}
+
+.content {
+    padding: 100px;
+    font-size: 3rem;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+
+}
+
+.content p {
+    border-bottom: 5px dotted lightblue;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+span {
+    font-size: 5rem;
+}
+
+hr {
+    margin: 50px 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: relative;
+    text-align: center;
+
+
+}
+
+footer p {
+    background-color: black;
+    line-height: 50px;
+    width: 80%;
+    font-size: 2rem;
+    font-family: 'Bitter', serif;
+    color: lightslategray;
+
+
+}
+
+
+
